@@ -8,7 +8,7 @@ This extension demonstrates OAuth authentication with Azure DevOps (formerly Vis
 
 This sample uses the `launchWebAuthFlow` method, which enables authorization with providers other than Google. For authorization using a Google Account, check out the [Identity API sample](../identity).
 
-![screenshot](assets/screenshot.png)
+![screenshot](assets/screenshot.svg)
 
 ## Features
 
