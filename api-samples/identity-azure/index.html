@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Azure DevOps Identity API Sample</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="identity-azure.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Azure DevOps Identity API</h1>
+      <div class="links">
+        Learn more:
+        <a
+          target="_blank"
+          href="https://developer.chrome.com/docs/extensions/reference/api/identity"
+          >Chrome Identity API</a
+        >
+        <a
+          target="_blank"
+          href="https://learn.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth"
+          >Azure DevOps OAuth</a
+        >
+        <a
+          target="_blank"
+          href="https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/api-samples/identity-azure"
+          >Source</a
+        >
+      </div>
+      <hr />
+    </div>
+    <div class="flows">
+      <h2>Azure DevOps OAuth Authentication</h2>
+      <div class="flow">
+        <button id="signin">Sign in to Azure DevOps</button>
+        <button id="userinfo" disabled>Get user profile</button>
+        <button id="revoke" disabled>Revoke token</button>
+        <div id="user_info"></div>
+      </div>
+    </div>
+    <div class="log">
+      <textarea id="__logarea" disabled></textarea>
+    </div>
+  </body>
+</html>
