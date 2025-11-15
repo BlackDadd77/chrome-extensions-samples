@@ -1,0 +1,18 @@
+{
+  "name": "Azure DevOps Identity API Sample",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Sample extension that uses the Identity API to authenticate with Azure DevOps",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["identity"],
+  "host_permissions": [
+    "https://app.vssps.visualstudio.com/*",
+    "https://dev.azure.com/*"
+  ],
+  "oauth2": {
+    "client_id": "YOUR_AZURE_APP_ID",
+    "scopes": ["vso.profile", "vso.project"]
+  }
+}

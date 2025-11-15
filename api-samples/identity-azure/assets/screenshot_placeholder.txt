@@ -1,0 +1,9 @@
+Screenshot placeholder for Azure DevOps Identity API Sample
+
+This sample demonstrates OAuth authentication with Azure DevOps.
+
+To create an actual screenshot:
+1. Load the extension in Chrome
+2. Click the extension icon
+3. Take a screenshot of the popup UI
+4. Replace this file with screenshot.png
